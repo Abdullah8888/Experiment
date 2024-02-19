@@ -16,6 +16,8 @@
 		B82A1A062922C41700F70F54 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A1A052922C41700F70F54 /* AdapterPattern.swift */; };
 		B82A1A092922C54E00F70F54 /* SomeTricksOnInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A1A082922C54E00F70F54 /* SomeTricksOnInheritance.swift */; };
 		B82A1A0B29238CE600F70F54 /* ProxyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A1A0A29238CE600F70F54 /* ProxyPattern.swift */; };
+		B82F0FE52B820DE1003A47A6 /* ArrayAndString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F0FE42B820DE1003A47A6 /* ArrayAndString.swift */; };
+		B82F0FE72B821A28003A47A6 /* Important stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F0FE62B821A28003A47A6 /* Important stuff.swift */; };
 		B833750229EC3C3A00FBDF83 /* Hackerrankk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833750129EC3C3A00FBDF83 /* Hackerrankk.swift */; };
 		B833BC9629D9E56E001CD159 /* Multithreading_001.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833BC9529D9E56E001CD159 /* Multithreading_001.swift */; };
 		B83EE2DB29099CEB009236B0 /* Boyer_Moore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EE2DA29099CEB009236B0 /* Boyer_Moore.swift */; };
@@ -68,6 +70,8 @@
 		B82A1A052922C41700F70F54 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		B82A1A082922C54E00F70F54 /* SomeTricksOnInheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeTricksOnInheritance.swift; sourceTree = "<group>"; };
 		B82A1A0A29238CE600F70F54 /* ProxyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPattern.swift; sourceTree = "<group>"; };
+		B82F0FE42B820DE1003A47A6 /* ArrayAndString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayAndString.swift; sourceTree = "<group>"; };
+		B82F0FE62B821A28003A47A6 /* Important stuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Important stuff.swift"; sourceTree = "<group>"; };
 		B833750129EC3C3A00FBDF83 /* Hackerrankk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackerrankk.swift; sourceTree = "<group>"; };
 		B833BC9529D9E56E001CD159 /* Multithreading_001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multithreading_001.swift; sourceTree = "<group>"; };
 		B83EE2DA29099CEB009236B0 /* Boyer_Moore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boyer_Moore.swift; sourceTree = "<group>"; };
@@ -130,8 +134,17 @@
 			isa = PBXGroup;
 			children = (
 				B82A1A082922C54E00F70F54 /* SomeTricksOnInheritance.swift */,
+				B82F0FE62B821A28003A47A6 /* Important stuff.swift */,
 			);
 			path = Random;
+			sourceTree = "<group>";
+		};
+		B82F0FE32B820AED003A47A6 /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				B82F0FE42B820DE1003A47A6 /* ArrayAndString.swift */,
+			);
+			path = Codility;
 			sourceTree = "<group>";
 		};
 		B833750029EC3BCA00FBDF83 /* Hackerrank */ = {
@@ -170,6 +183,7 @@
 		B88299E326EA521A00C32049 = {
 			isa = PBXGroup;
 			children = (
+				B82F0FE32B820AED003A47A6 /* Codility */,
 				B833750029EC3BCA00FBDF83 /* Hackerrank */,
 				B833BC9429D9E551001CD159 /* Multithreading */,
 				B894433029A9E50B00FC5F2E /* ADA */,
@@ -355,6 +369,7 @@
 				B807F4B727C653DA0013E316 /* Algorithms.swift in Sources */,
 				B898D9192934D8FA001F2FB2 /* LeetcodeTwo.swift in Sources */,
 				B8EF7E6A27AD2E8F003992E0 /* Codility.swift in Sources */,
+				B82F0FE52B820DE1003A47A6 /* ArrayAndString.swift in Sources */,
 				B8590E43280B3365007BEA31 /* Associatedtype.swift in Sources */,
 				B898D91E2935ED69001F2FB2 /* Kadence's.swift in Sources */,
 				B8A846D328C08E1B00464ABC /* Turing.swift in Sources */,
@@ -368,6 +383,7 @@
 				B83EE2DB29099CEB009236B0 /* Boyer_Moore.swift in Sources */,
 				B84A8B592A2DCE100075A87E /* DijkstrasAlgorithm.swift in Sources */,
 				B887CD282833E8A100382F70 /* Numbers.swift in Sources */,
+				B82F0FE72B821A28003A47A6 /* Important stuff.swift in Sources */,
 				B8BA455F28437D3900C34B13 /* GeeksForGeeks.swift in Sources */,
 				B833BC9629D9E56E001CD159 /* Multithreading_001.swift in Sources */,
 				B8D84213284CCA1B00B6266E /* Stack.swift in Sources */,

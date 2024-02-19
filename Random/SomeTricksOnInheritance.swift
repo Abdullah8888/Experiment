@@ -32,4 +32,3 @@ class MyClock: Clock {
 //MyClock.time = "time2"
 //print(MyClock.time)
 
-
