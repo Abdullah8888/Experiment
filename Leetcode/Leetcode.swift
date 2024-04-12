@@ -378,3 +378,38 @@ func numberOfCommonFactors() {
     print(countFactors)
 }
 
+func averageTotalRevenue(input: [String]) -> [String]{
+    let listOfNumberOfRides = ["1,Sedan,200", "2,Sedan,300", "4,WEHS,200", "5,DAN,500"]
+    
+    var result: [String: String] = [:]
+    var resultString: [String] = []
+    
+    for (_, el) in listOfNumberOfRides.enumerated() {
+        let splittedList = el.split(separator: ",")
+        let nameOfRide = String(splittedList[1])
+        let amount = Int(splittedList[2])!
+        
+        if (result[nameOfRide] != nil) {
+            let prevAmount = Int(result[nameOfRide]!)!
+            let newAmount = prevAmount + amount
+            result[nameOfRide] = String(newAmount)
+        }
+        else {
+            result[nameOfRide] = String(amount)
+        }
+    }
+ 
+    let newRes = result.sorted{$0.key < $1.key}
+    for (key, value) in newRes {
+        var resString = ""
+        resString = key + "," + value
+        resultString.append(resString)
+    }
+
+    return resultString
+}
+
+func runLeetCode() {
+    _ = averageTotalRevenue(input: [])
+}
+

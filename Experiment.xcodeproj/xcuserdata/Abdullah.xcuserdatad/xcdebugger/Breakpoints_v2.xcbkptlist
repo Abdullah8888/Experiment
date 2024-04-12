@@ -7,160 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A3F87C86-557A-4B0B-90DB-6A94D2078EAD"
-            shouldBeEnabled = "Yes"
+            uuid = "2F4BD687-9FA7-49B3-896D-259D1FC7C9D3"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
+            filePath = "Algorithms/algorithms.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "shortestPath(source:destination:graph:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "maxSubArraySum(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2B1F1602-BBC3-470E-932D-B9AA980BF165"
-            shouldBeEnabled = "Yes"
+            uuid = "5916D77A-922A-435A-9117-7910489BD20C"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
+            filePath = "Algorithms/algorithms.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "shortestPath(source:destination:graph:)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "2B1F1602-BBC3-470E-932D-B9AA980BF165 - fbe9e74d21043f80"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Experiment.shortestPath(source: Swift.Int, destination: Swift.Int, graph: Experiment.Graph) -&gt; Swift.Int"
-                  moduleName = "Experiment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdullah/Documents/play_play/Experiment/DSA/DijkstrasAlgorithm.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "2516">
-               </Location>
-               <Location
-                  uuid = "2B1F1602-BBC3-470E-932D-B9AA980BF165 - e49e3176ba2d914d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #4 (Experiment.Node, Experiment.Node) -&gt; Swift.Bool in Experiment.shortestPath(source: Swift.Int, destination: Swift.Int, graph: Experiment.Graph) -&gt; Swift.Int"
-                  moduleName = "Experiment"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abdullah/Documents/play_play/Experiment/DSA/DijkstrasAlgorithm.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3D812C4E-4BC4-42D1-AB17-A50DDA27DB9A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "shortestPath(source:destination:graph:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "maxSubArraySum(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D6B84A17-C043-46AF-AE26-061FA001E2F9"
-            shouldBeEnabled = "Yes"
+            uuid = "418D5B8E-BE8B-468E-BC92-7EE33BEB8829"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
+            filePath = "Algorithms/algorithms.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "shortestPath(source:destination:graph:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D7B09A5A-6F93-405C-BEC8-EAD51CE4DAB1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "shortestPath(source:destination:graph:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6B367CF1-D136-431E-BADD-EECCE5575AAB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "shortestPath(source:destination:graph:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4C526DB9-DC8C-4236-AD00-2BCFCF9CB0CF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "shortestPath(source:destination:graph:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8F7F8760-CF99-4E1D-B3C2-B448E878D4DF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DSA/DijkstrasAlgorithm.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "shortestPath(source:destination:graph:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "maxSubArraySum(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

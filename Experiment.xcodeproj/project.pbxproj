@@ -31,6 +31,7 @@
 		B88299F726EA533400C32049 /* TestCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88299F626EA533400C32049 /* TestCode.swift */; };
 		B8872FEF26F236EF001B44BB /* RandomQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8872FEE26F236EF001B44BB /* RandomQuestions.swift */; };
 		B887CD282833E8A100382F70 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B887CD272833E8A100382F70 /* Numbers.swift */; };
+		B88B84FA2B90D07E00B6E223 /* algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B84F92B90D07E00B6E223 /* algorithms.swift */; };
 		B894433229A9E52600FC5F2E /* ada_001.swift in Sources */ = {isa = PBXBuildFile; fileRef = B894433129A9E52600FC5F2E /* ada_001.swift */; };
 		B895EDF8274BAB9400F376BE /* OpenClosedPricipleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895EDF7274BAB9400F376BE /* OpenClosedPricipleExample.swift */; };
 		B895EDFA274BC07C00F376BE /* LiskovSubstitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895EDF9274BC07C00F376BE /* LiskovSubstitionExample.swift */; };
@@ -86,6 +87,7 @@
 		B88299F626EA533400C32049 /* TestCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCode.swift; path = emplate/TestCode.swift; sourceTree = "<group>"; };
 		B8872FEE26F236EF001B44BB /* RandomQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestions.swift; sourceTree = "<group>"; };
 		B887CD272833E8A100382F70 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		B88B84F92B90D07E00B6E223 /* algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithms.swift; sourceTree = "<group>"; };
 		B894433129A9E52600FC5F2E /* ada_001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ada_001.swift; sourceTree = "<group>"; };
 		B895EDF7274BAB9400F376BE /* OpenClosedPricipleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosedPricipleExample.swift; sourceTree = "<group>"; };
 		B895EDF9274BC07C00F376BE /* LiskovSubstitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitionExample.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		B88299E326EA521A00C32049 = {
 			isa = PBXGroup;
 			children = (
+				B88B84F82B90D06D00B6E223 /* Algorithms */,
 				B82F0FE32B820AED003A47A6 /* Codility */,
 				B833750029EC3BCA00FBDF83 /* Hackerrank */,
 				B833BC9429D9E551001CD159 /* Multithreading */,
@@ -231,6 +234,14 @@
 				B8A846D228C08E1B00464ABC /* Turing.swift */,
 			);
 			path = Experiment;
+			sourceTree = "<group>";
+		};
+		B88B84F82B90D06D00B6E223 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				B88B84F92B90D07E00B6E223 /* algorithms.swift */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 		B894433029A9E50B00FC5F2E /* ADA */ = {
@@ -366,6 +377,7 @@
 				B8590E2628071C98007BEA31 /* NetworkingStuff.swift in Sources */,
 				B82A1A062922C41700F70F54 /* AdapterPattern.swift in Sources */,
 				B88299F726EA533400C32049 /* TestCode.swift in Sources */,
+				B88B84FA2B90D07E00B6E223 /* algorithms.swift in Sources */,
 				B807F4B727C653DA0013E316 /* Algorithms.swift in Sources */,
 				B898D9192934D8FA001F2FB2 /* LeetcodeTwo.swift in Sources */,
 				B8EF7E6A27AD2E8F003992E0 /* Codility.swift in Sources */,

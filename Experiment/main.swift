@@ -6,5 +6,14 @@
 //
 
 import Foundation
-testMissingElement()
+//testMissingElement()
+
+//testHackerrank()
+
+//runCodility()
+
+//runAlgorithms()
+
+runLeetCode()
+
 
