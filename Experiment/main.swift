@@ -10,10 +10,12 @@ import Foundation
 
 //testHackerrank()
 
-//runCodility()
+runCodility()
 
 //runAlgorithms()
 
-runLeetCode()
+//runLeetCode()
+
+//runRandomMain()
 
 

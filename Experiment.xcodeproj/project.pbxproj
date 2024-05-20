@@ -11,6 +11,7 @@
 		B807F4B927C7A75E0013E316 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B807F4B827C7A75E0013E316 /* Date+Extensions.swift */; };
 		B80D5E6327FCB1FC002015B6 /* Myplayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80D5E6227FCB1FC002015B6 /* Myplayground.swift */; };
 		B810796826EB40CF0039BD27 /* sam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810796726EB40CE0039BD27 /* sam.swift */; };
+		B81BC8792BD1EE96000B8966 /* RetainCyclesLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BC8782BD1EE96000B8966 /* RetainCyclesLessons.swift */; };
 		B820DCEF275BB6EE003BE082 /* Leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820DCEE275BB6EE003BE082 /* Leetcode.swift */; };
 		B820DCF1275CA7E0003BE082 /* Hackerrank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820DCF0275CA7E0003BE082 /* Hackerrank.swift */; };
 		B82A1A062922C41700F70F54 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82A1A052922C41700F70F54 /* AdapterPattern.swift */; };
@@ -66,6 +67,7 @@
 		B807F4B827C7A75E0013E316 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		B80D5E6227FCB1FC002015B6 /* Myplayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myplayground.swift; sourceTree = "<group>"; };
 		B810796726EB40CE0039BD27 /* sam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sam.swift; path = emplate/sam.swift; sourceTree = "<group>"; };
+		B81BC8782BD1EE96000B8966 /* RetainCyclesLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCyclesLessons.swift; sourceTree = "<group>"; };
 		B820DCEE275BB6EE003BE082 /* Leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode.swift; sourceTree = "<group>"; };
 		B820DCF0275CA7E0003BE082 /* Hackerrank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackerrank.swift; sourceTree = "<group>"; };
 		B82A1A052922C41700F70F54 /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				B82A1A082922C54E00F70F54 /* SomeTricksOnInheritance.swift */,
 				B82F0FE62B821A28003A47A6 /* Important stuff.swift */,
+				B81BC8782BD1EE96000B8966 /* RetainCyclesLessons.swift */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 			files = (
 				B84BE774293C107D00EAF874 /* Search.swift in Sources */,
 				B895EDF8274BAB9400F376BE /* OpenClosedPricipleExample.swift in Sources */,
+				B81BC8792BD1EE96000B8966 /* RetainCyclesLessons.swift in Sources */,
 				B820DCF1275CA7E0003BE082 /* Hackerrank.swift in Sources */,
 				B898D91C2935E804001F2FB2 /* Sort.swift in Sources */,
 				B8FEF4B2271D4C330023D466 /* CodeSignal.swift in Sources */,
