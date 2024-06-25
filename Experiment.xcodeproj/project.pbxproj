@@ -46,7 +46,11 @@
 		B8D84213284CCA1B00B6266E /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D84212284CCA1B00B6266E /* Stack.swift */; };
 		B8D84215284CDC3F00B6266E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D84214284CDC3F00B6266E /* Queue.swift */; };
 		B8D84218284D0CDB00B6266E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D84217284D0CDB00B6266E /* LinkedList.swift */; };
+		B8DC0C4C2C036CA4004F2D8D /* ExampleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC0C4B2C036CA4004F2D8D /* ExampleA.swift */; };
 		B8EF7E6A27AD2E8F003992E0 /* Codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF7E6927AD2E8F003992E0 /* Codility.swift */; };
+		B8FB1C692C2AE945003080A2 /* AlgoritmTechinques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */; };
+		B8FB1C6B2C2B24CE003080A2 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */; };
+		B8FB1C6E2C2B272B003080A2 /* SlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C6D2C2B272B003080A2 /* SlidingWindow.swift */; };
 		B8FEF4B2271D4C330023D466 /* CodeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FEF4B1271D4C330023D466 /* CodeSignal.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,7 +107,11 @@
 		B8D84212284CCA1B00B6266E /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B8D84214284CDC3F00B6266E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B8D84217284D0CDB00B6266E /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		B8DC0C4B2C036CA4004F2D8D /* ExampleA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleA.swift; sourceTree = "<group>"; };
 		B8EF7E6927AD2E8F003992E0 /* Codility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility.swift; sourceTree = "<group>"; };
+		B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmTechinques.swift; sourceTree = "<group>"; };
+		B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
+		B8FB1C6D2C2B272B003080A2 /* SlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindow.swift; sourceTree = "<group>"; };
 		B8FEF4B1271D4C330023D466 /* CodeSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +129,7 @@
 		B82A1A032922C3C900F70F54 /* CreationalPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B8DC0C4B2C036CA4004F2D8D /* ExampleA.swift */,
 			);
 			path = CreationalPatterns;
 			sourceTree = "<group>";
@@ -168,15 +177,6 @@
 			path = Multithreading;
 			sourceTree = "<group>";
 		};
-		B83EE2D929095627009236B0 /* Algorithms */ = {
-			isa = PBXGroup;
-			children = (
-				B83EE2DA29099CEB009236B0 /* Boyer_Moore.swift */,
-				B898D91D2935ED69001F2FB2 /* Kadence's.swift */,
-			);
-			path = Algorithms;
-			sourceTree = "<group>";
-		};
 		B84BE772293C106E00EAF874 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +188,7 @@
 		B88299E326EA521A00C32049 = {
 			isa = PBXGroup;
 			children = (
-				B88B84F82B90D06D00B6E223 /* Algorithms */,
+				B8D84210284CC9A300B6266E /* DSA */,
 				B82F0FE32B820AED003A47A6 /* Codility */,
 				B833750029EC3BCA00FBDF83 /* Hackerrank */,
 				B833BC9429D9E551001CD159 /* Multithreading */,
@@ -198,7 +198,6 @@
 				B82A1A042922C3E200F70F54 /* StructuralPatterns */,
 				B82A1A032922C3C900F70F54 /* CreationalPatterns */,
 				B8B9A61428650DA300C4E34B /* ComposePattern */,
-				B8D84210284CC9A300B6266E /* DSA */,
 				B88299EE26EA521A00C32049 /* Experiment */,
 				B88299ED26EA521A00C32049 /* Products */,
 			);
@@ -242,9 +241,14 @@
 		B88B84F82B90D06D00B6E223 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				B83EE2DA29099CEB009236B0 /* Boyer_Moore.swift */,
+				B898D91D2935ED69001F2FB2 /* Kadence's.swift */,
 				B88B84F92B90D07E00B6E223 /* algorithms.swift */,
+				B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */,
+				B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */,
 			);
-			path = Algorithms;
+			name = Algorithms;
+			path = ../Algorithms;
 			sourceTree = "<group>";
 		};
 		B894433029A9E50B00FC5F2E /* ADA */ = {
@@ -283,9 +287,10 @@
 		B8D84210284CC9A300B6266E /* DSA */ = {
 			isa = PBXGroup;
 			children = (
+				B8FB1C6C2C2B26FF003080A2 /* AlgorithmTechniques */,
+				B88B84F82B90D06D00B6E223 /* Algorithms */,
 				B84BE772293C106E00EAF874 /* Search */,
 				B898D91A2935E7DD001F2FB2 /* Sort */,
-				B83EE2D929095627009236B0 /* Algorithms */,
 				B8D84216284D0CAE00B6266E /* DSA(II) */,
 				B8D84211284CC9EA00B6266E /* DSA(I) */,
 				B84A8B582A2DCE100075A87E /* DijkstrasAlgorithm.swift */,
@@ -308,6 +313,14 @@
 				B8D84217284D0CDB00B6266E /* LinkedList.swift */,
 			);
 			path = "DSA(II)";
+			sourceTree = "<group>";
+		};
+		B8FB1C6C2C2B26FF003080A2 /* AlgorithmTechniques */ = {
+			isa = PBXGroup;
+			children = (
+				B8FB1C6D2C2B272B003080A2 /* SlidingWindow.swift */,
+			);
+			path = AlgorithmTechniques;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,15 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FB1C692C2AE945003080A2 /* AlgoritmTechinques.swift in Sources */,
 				B84BE774293C107D00EAF874 /* Search.swift in Sources */,
 				B895EDF8274BAB9400F376BE /* OpenClosedPricipleExample.swift in Sources */,
 				B81BC8792BD1EE96000B8966 /* RetainCyclesLessons.swift in Sources */,
 				B820DCF1275CA7E0003BE082 /* Hackerrank.swift in Sources */,
+				B8FB1C6E2C2B272B003080A2 /* SlidingWindow.swift in Sources */,
 				B898D91C2935E804001F2FB2 /* Sort.swift in Sources */,
 				B8FEF4B2271D4C330023D466 /* CodeSignal.swift in Sources */,
 				B833750229EC3C3A00FBDF83 /* Hackerrankk.swift in Sources */,
 				B8D84215284CDC3F00B6266E /* Queue.swift in Sources */,
 				B807F4B927C7A75E0013E316 /* Date+Extensions.swift in Sources */,
+				B8FB1C6B2C2B24CE003080A2 /* Kadane.swift in Sources */,
 				B8D84218284D0CDB00B6266E /* LinkedList.swift in Sources */,
 				B895EDFC274BE20400F376BE /* DependencyInjectionExample.swift in Sources */,
 				B8590E2628071C98007BEA31 /* NetworkingStuff.swift in Sources */,
@@ -407,6 +423,7 @@
 				B8779656281686B500C6A9CF /* DIGuy.swift in Sources */,
 				B820DCEF275BB6EE003BE082 /* Leetcode.swift in Sources */,
 				B810796826EB40CF0039BD27 /* sam.swift in Sources */,
+				B8DC0C4C2C036CA4004F2D8D /* ExampleA.swift in Sources */,
 				B8590E3D280AE51B007BEA31 /* RetainCycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

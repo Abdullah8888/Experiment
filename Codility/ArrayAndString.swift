@@ -276,6 +276,10 @@ func runCodility() {
 //    let res = binaryGapV2(15)
 //    print(res)
     
+    var arr = [0,1,0,1,1]
+    let res = passingCars2(&arr)
+    print(res)
+    
 }
 
 func frongJmp(_ X : Int, _ Y : Int, _ D : Int) -> Int {
@@ -410,3 +414,81 @@ public func maxCounters(_ N : Int, _ A : inout [Int]) -> [Int] {
         }
         return counters
 }
+
+
+public func missingInteger(_ A : inout [Int]) -> Int {
+    // Implement your solution here
+    var setA: Set<Int> = []
+
+    for el in A {
+        if el > 0 {
+            setA.insert(el)
+        }
+    }
+    
+    for el in 1...A.count+1 {
+        if !setA.contains(el) {
+            return el
+        }
+    }
+    return 1
+}
+
+public func passingCars(_ A : inout [Int]) -> Int {
+    // Implement your solution here
+
+    var i = 0;
+    var numberOfPairsCars = 0;
+
+    while i < A.count {
+        let pEl = A[i]
+        if pEl != 0 {
+            i = i + 1
+            continue
+        }
+        var j = i + 1
+        
+        while j < A.count {
+            let qEl = A[j]
+            if qEl == 0 {
+                j = j + 1
+                continue
+            }
+            if (0 <= i) && (i<j) && (j < A.count) {
+                numberOfPairsCars = numberOfPairsCars + 1
+            }
+            j = j + 1
+        }
+        i = i + 1
+    }
+
+    if numberOfPairsCars > 1000000000 {
+        return -1
+    }
+    return numberOfPairsCars
+}
+
+//This problem was solved using greedy algorithm
+public func passingCars2(_ A : inout [Int]) -> Int {
+    // Implement your solution here
+    var count = 0;
+    var addBase = 0;
+    for el in A {
+        if(el == 0) {
+            addBase+=1;
+        }
+        else {
+            count += addBase;
+        }
+    }
+    if(count > 1000000000){
+        return -1
+    }
+    return count
+}
+
+public func countDiv(_ A : Int, _ B : Int, _ K : Int) -> Int {
+    // Implement your solution here
+    return (B/K) - (A/K) + (A%K == 0 ? 1 : 0);
+}
+

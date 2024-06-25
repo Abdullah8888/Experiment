@@ -18,21 +18,6 @@ func runAlgorithms() {
     var subArr = A.suffix(2)
     print(subArr)
 }
-//Kadane's Algorithm is a well-known algorithm for finding the maximum subarray sum in an array
-// Note: in the image maxSofar is represented by Max_Sum
-// and maxEndingHere by Curr_Sum
-
-func maxSubArraySum(_ arr: [Int]) -> Int {
-    var maxEndingHere = arr[0]
-    var maxSoFar = arr[0]
-
-    for i in 1..<arr.count {
-        maxEndingHere = max(arr[i], maxEndingHere + arr[i])
-        maxSoFar = max(maxSoFar, maxEndingHere)
-    }
-    
-    return maxSoFar
-}
 
 public func solutionss(_ A :  [Int], _ B :  [Int]) -> Int {
     // Implement your solution here
@@ -72,3 +57,5 @@ public func solutionss(_ A :  [Int], _ B :  [Int]) -> Int {
     
     return result.count
 }
+
+
