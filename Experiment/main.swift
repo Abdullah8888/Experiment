@@ -18,8 +18,12 @@ import Foundation
 
 //runRandomMain()
 
-runSlidingWindow()
+//runSlidingWindow()
 
 //runKadaneAlgorithm()
+
+//runSortAlgo()
+
+runLinkedList()
 
 

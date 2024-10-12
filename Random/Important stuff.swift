@@ -120,8 +120,6 @@ func importantStuff() {
     //print(res)
 
 
-    sampleSinglLinkedListUsage()
-
     //isLinkedListEven()
 
     //let myClassA = DIContainer().createMyClasssA()

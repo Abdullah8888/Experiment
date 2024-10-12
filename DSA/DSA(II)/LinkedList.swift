@@ -40,174 +40,175 @@ import Foundation
  Hash tables, Graphs
  */
 
+class NodeObj<T> {
+    var value: T
+    var next: NodeObj?
+    init(value: T, next: NodeObj? = nil) {
+        self.value = value
+        self.next = next
+    }
+}
 
-struct MySinglyLinkedList<T> {
-    var head: MyNode<T>?
-    var tail: MyNode<T>?
+// Singly linked list
+class LinkedList<T> {
+    var head: NodeObj<T>?
     
-    var isEmpty: Bool {
-        return head == nil
-    }
-    var first: Bool {
-        return head == nil
-    }
-    var last: Bool {
-        return tail == nil
+    init(head: NodeObj<T>? = nil) {
+        self.head = head
     }
     
-    init () {
+    var size: Int {
+        if head == nil {
+            return 0
+        }
+        var currentNode = head
+        var count = 0
+        while currentNode != nil {
+            count = count + 1
+            currentNode = currentNode?.next
+        }
+        return count
+    }
+    
+    func insertAtBegining(newNode: NodeObj<T>?) {
+        
+        if head != nil {
+            let tempHead = head
+            head = newNode
+            head?.next = tempHead
+        }
+        else {
+            head = newNode
+        }
+    }
+    
+    func insertAtEnd(newNode: NodeObj<T>?) {
+    
+        if head == nil {
+            head = newNode
+            return
+        }
+        var currentNode = head
+        while currentNode?.next != nil {
+            currentNode = currentNode?.next
+        }
+        currentNode?.next = newNode
+    }
+    
+    func removeFromFront() {
+        if head == nil {
+            return
+        }
+        let tempHead = head?.next
+        head = tempHead
+    }
+    
+    func removeFromEnd() {
+        if head == nil {
+            return
+        }
+        var current: NodeObj<T>? = head
+        var previous: NodeObj<T>?
+        
+        while current?.next != nil {
+            previous = current
+            current = current?.next
+        }
+      
+        previous?.next = nil
+    }
+    
+    func remove(at node: NodeObj<T>) {
+        if head == nil {
+            return
+        }
+
+        if head === node {
+            var temp = head?.next
+            head = temp
+            return
+        }
+
+        var currentNode = head
+        var previousNode: NodeObj<T>?
+        
+        while currentNode != nil {
+            if currentNode === node {
+                previousNode?.next = currentNode?.next
+                break
+            }
+            else {
+                previousNode = currentNode
+                currentNode = currentNode?.next
+            }
+        }
+    }
+    
+    func getMiddleElement() {
         
     }
     
-    mutating func displayNodes() {
-        //var next  = head?.next
-        var index = 0
-        while head != nil {
-            print("\(head?.data) at \(index)")
-            head = head?.next
-            index = index + 1
+    func displayAll() {
+        var currentNode = head
+        while currentNode != nil {
+            print(currentNode?.value)
+            currentNode = currentNode?.next
         }
     }
-    
-    mutating func isLinkedListEven() {
-        while head != nil && head?.next != nil {
-            head = head?.next?.next
-        }
-    }
-    
-    mutating func push(node: MyNode<T>) {
-        head = MyNode<T>(data: node.data, next: head)
-        //head = newNode
-        if tail == nil {
-            tail = head
-        }
-    }
-    
-    mutating func pushh(node: MyNode<T>?) {
-        //head = node
-        head?.next = node
-        head = head?.next
-        //head?.next =
-        //head = head?.next
-//        if tail == nil {
-//            tail = head
-//        }
-    }
-    
-    mutating func push(data: T) {
-        head = MyNode<T>(data: data, next: head)
-        if tail == nil {
-            tail = head
-        }
-    }
-    
-    mutating func append(data: T) {
-        if isEmpty {
-            push(data: data)
-            return
-        }
-        tail?.next = MyNode<T>(data: data)
-        tail = tail?.next
-    }
-    
-    func pop() {
-        head?.next = nil
-    }
-}
-
-class MyNode<T> {
-    var data: T
-    var next: MyNode<T>?
-    
-    init(data: T, next: MyNode<T>? = nil) {
-        self.data = data
-        self.next = next
-    }
-    
-    init(data: T) {
-        self.data = data
-    }
-}
-
-func sampleSinglLinkedListUsage() {
-    
-    let node1 = MyNode<String>(data: "Bolu")
-    let node2 = MyNode<String>(data: "Tola")
-    let node3 = MyNode<String>(data: "John")
-    
-    let node11 = MyNode<String>(data: "Bolu", next: nil)
-    let node22 = MyNode<String>(data: "Tola", next: nil)
-    let node33 = MyNode<String>(data: "John", next: nil)
-    
-//    node1.next = node2
-//    node2.next = node3
-//    node3.next = nil
-    
-    //var linkedList = MySinglyLinkedList(head: node1)
-    
-    var linkedList = MySinglyLinkedList<String>()
-    
-    //linkedList.push(node: node1)
-    linkedList.pushh(node: node11)
-    linkedList.pushh(node: node22)
-    linkedList.pushh(node: node33)
-//    //linkedList.push(node: nil)
-//    linkedList.displayNodes()
-    
-//    linkedList.append(data: "Bok1")
-//    linkedList.append(data: "Bok2")
-//    linkedList.append(data: "Bok3")
-    
-    linkedList.displayNodes()
     
 }
 
-/**
- Check whether the length of given linked list is Even or Odd
+func runLinkedList() {
+    
+//    runInsertBegining()
+//
+//    runInsertEnd()
+    
+    runRemoveAt()
+}
 
- Difficulty Level : Basic
- Last Updated : 13 May, 2021
- Given a linked list, the task is to make a function which checks whether the length of the linked list is even or odd.
- Examples
- Input : 1->2->3->4->NULL
- Output : Even
+func runInsertBegining() {
+    let linkedList: LinkedList<Int> = LinkedList<Int>()
+    // This follows Lifo pattern
+    linkedList.insertAtBegining(newNode: NodeObj(value: 5))
+    linkedList.insertAtBegining(newNode: NodeObj(value: 4))
+    linkedList.insertAtBegining(newNode: NodeObj(value: 30))
 
- Input : 1->2->3->4->5->NULL
- Output : Odd
- 
- Method 1: Count the codes linearly
- Traverse the entire Linked List and keep counting the number of nodes. As soon as the loop is finished, we can check if the count is even or odd. You may try it yourself.
- Method 2: Stepping 2 nodes at a time
- Approach:
- 
- */
+    linkedList.displayAll()
 
-func isLinkedListEven() {
-    let node1 = MyNode<Int>(data: 1)
-    let node2 = MyNode<Int>(data: 2)
-    //let node3 = MyNode<Int>(data: 3)
+    linkedList.removeFromFront()
+
+    linkedList.displayAll()
+}
+
+func runInsertEnd() {
+    let linkedList: LinkedList<Int> = LinkedList<Int>()
+    // This follows Fifo pattern
+    linkedList.insertAtEnd(newNode: NodeObj(value: 5))
+    linkedList.insertAtEnd(newNode: NodeObj(value: 4))
+    linkedList.insertAtEnd(newNode: NodeObj(value: 30))
+
+    linkedList.displayAll()
+
+    linkedList.removeFromEnd()
+
+    linkedList.displayAll()
+}
+
+func runRemoveAt() {
+    let linkedList: LinkedList<Int> = LinkedList<Int>()
+    let node1 = NodeObj(value: 5)
+    let node2 = NodeObj(value: 4)
+    let node3 = NodeObj(value: 30)
+    let node4 = NodeObj(value: 10)
+    linkedList.insertAtEnd(newNode: node1)
+    linkedList.insertAtEnd(newNode: node2)
+    linkedList.insertAtEnd(newNode: node3)
+    linkedList.insertAtEnd(newNode: node4)
     
-    node1.next = node2
-    //node2.next = node3
-    node2.next = nil
-    
-//    var linkedList = MySinglyLinkedList(head: node1)
-//    linkedList.displayNodes()
-    
-    var head: MyNode<Int>? = node1
-    
-    while head != nil && head?.next != nil {
-        head = head?.next?.next
-    }
-    
-    
-    
-    if head != nil {
-        print("isOdd")
-    }
-    else {
-        print("isEven")
-    }
-    
-    
+
+    linkedList.displayAll()
+//    linkedList.remove(at: node1)
+//    linkedList.displayAll()
+    print("linkedList.size is \(linkedList.size)")
 }

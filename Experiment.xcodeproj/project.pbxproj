@@ -38,7 +38,7 @@
 		B895EDFA274BC07C00F376BE /* LiskovSubstitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895EDF9274BC07C00F376BE /* LiskovSubstitionExample.swift */; };
 		B895EDFC274BE20400F376BE /* DependencyInjectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895EDFB274BE20400F376BE /* DependencyInjectionExample.swift */; };
 		B898D9192934D8FA001F2FB2 /* LeetcodeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898D9182934D8FA001F2FB2 /* LeetcodeTwo.swift */; };
-		B898D91C2935E804001F2FB2 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898D91B2935E804001F2FB2 /* Sort.swift */; };
+		B898D91C2935E804001F2FB2 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898D91B2935E804001F2FB2 /* MergeSort.swift */; };
 		B898D91E2935ED69001F2FB2 /* Kadence's.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898D91D2935ED69001F2FB2 /* Kadence's.swift */; };
 		B8A846D328C08E1B00464ABC /* Turing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A846D228C08E1B00464ABC /* Turing.swift */; };
 		B8B9A61628650DD300C4E34B /* ComposeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9A61528650DD300C4E34B /* ComposeSample.swift */; };
@@ -48,7 +48,6 @@
 		B8D84218284D0CDB00B6266E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D84217284D0CDB00B6266E /* LinkedList.swift */; };
 		B8DC0C4C2C036CA4004F2D8D /* ExampleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC0C4B2C036CA4004F2D8D /* ExampleA.swift */; };
 		B8EF7E6A27AD2E8F003992E0 /* Codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF7E6927AD2E8F003992E0 /* Codility.swift */; };
-		B8FB1C692C2AE945003080A2 /* AlgoritmTechinques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */; };
 		B8FB1C6B2C2B24CE003080A2 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */; };
 		B8FB1C6E2C2B272B003080A2 /* SlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB1C6D2C2B272B003080A2 /* SlidingWindow.swift */; };
 		B8FEF4B2271D4C330023D466 /* CodeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FEF4B1271D4C330023D466 /* CodeSignal.swift */; };
@@ -99,7 +98,7 @@
 		B895EDF9274BC07C00F376BE /* LiskovSubstitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitionExample.swift; sourceTree = "<group>"; };
 		B895EDFB274BE20400F376BE /* DependencyInjectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionExample.swift; sourceTree = "<group>"; };
 		B898D9182934D8FA001F2FB2 /* LeetcodeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTwo.swift; sourceTree = "<group>"; };
-		B898D91B2935E804001F2FB2 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		B898D91B2935E804001F2FB2 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		B898D91D2935ED69001F2FB2 /* Kadence's.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kadence's.swift"; sourceTree = "<group>"; };
 		B8A846D228C08E1B00464ABC /* Turing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turing.swift; sourceTree = "<group>"; };
 		B8B9A61528650DD300C4E34B /* ComposeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSample.swift; sourceTree = "<group>"; };
@@ -109,7 +108,6 @@
 		B8D84217284D0CDB00B6266E /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		B8DC0C4B2C036CA4004F2D8D /* ExampleA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleA.swift; sourceTree = "<group>"; };
 		B8EF7E6927AD2E8F003992E0 /* Codility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility.swift; sourceTree = "<group>"; };
-		B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmTechinques.swift; sourceTree = "<group>"; };
 		B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
 		B8FB1C6D2C2B272B003080A2 /* SlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindow.swift; sourceTree = "<group>"; };
 		B8FEF4B1271D4C330023D466 /* CodeSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignal.swift; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 				B83EE2DA29099CEB009236B0 /* Boyer_Moore.swift */,
 				B898D91D2935ED69001F2FB2 /* Kadence's.swift */,
 				B88B84F92B90D07E00B6E223 /* algorithms.swift */,
-				B8FB1C682C2AE945003080A2 /* AlgoritmTechinques.swift */,
 				B8FB1C6A2C2B24CE003080A2 /* Kadane.swift */,
 			);
 			name = Algorithms;
@@ -271,7 +268,7 @@
 		B898D91A2935E7DD001F2FB2 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				B898D91B2935E804001F2FB2 /* Sort.swift */,
+				B898D91B2935E804001F2FB2 /* MergeSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -380,13 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8FB1C692C2AE945003080A2 /* AlgoritmTechinques.swift in Sources */,
 				B84BE774293C107D00EAF874 /* Search.swift in Sources */,
 				B895EDF8274BAB9400F376BE /* OpenClosedPricipleExample.swift in Sources */,
 				B81BC8792BD1EE96000B8966 /* RetainCyclesLessons.swift in Sources */,
 				B820DCF1275CA7E0003BE082 /* Hackerrank.swift in Sources */,
 				B8FB1C6E2C2B272B003080A2 /* SlidingWindow.swift in Sources */,
-				B898D91C2935E804001F2FB2 /* Sort.swift in Sources */,
+				B898D91C2935E804001F2FB2 /* MergeSort.swift in Sources */,
 				B8FEF4B2271D4C330023D466 /* CodeSignal.swift in Sources */,
 				B833750229EC3C3A00FBDF83 /* Hackerrankk.swift in Sources */,
 				B8D84215284CDC3F00B6266E /* Queue.swift in Sources */,
